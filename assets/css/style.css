@@ -352,7 +352,7 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row-reverse;
   text-align: center;
   position: relative;
   height: 70vh;
