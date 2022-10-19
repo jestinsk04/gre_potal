@@ -111,7 +111,7 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -370,8 +370,8 @@ h6 {
 } */
 
 .container-imgHero img{
-  height: 500px;
-  
+  height: 550px;
+  margin: 0px 50px;
 }
 
 #hero h2 {
@@ -535,13 +535,6 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Ventages
---------------------------------------------------------------*/
-/* #ventages{
-  padding: 0;
-} */
-
 
 /*--------------------------------------------------------------
 # Sections General
@@ -649,6 +642,84 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Register Section
+--------------------------------------------------------------*/
+.register {
+  background: #3ce6e6;
+  padding: 30px 0;
+}
+
+.register h3 {
+  color: #191919;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.register p {
+  color: #191919;
+}
+
+.register img {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .register {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 769px) {
+  .register {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+/*--------------------------------------------------------------
+# Ventages Section
+--------------------------------------------------------------*/
+.ventages-title {
+  padding-bottom: 0px;
+}
+
+.ventages-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
+.ventages-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #fd9042;
+  margin: 4px 10px;
+}
+
+.ventages-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #2a2c39;
+}
+
+.ventages-icon{
+  width: 50px;
+}
+/*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
 .nav-ventages{
@@ -656,8 +727,13 @@ section {
   justify-content: center;
 }
 
+.features{
+  padding: 0;
+}
+
 .features .nav-tabs {
   border: 0;
+  margin-bottom: 80px;
 }
 
 .features .nav-link {
@@ -690,6 +766,14 @@ section {
   background: #ef6603;
   color: #fff;
   border-color: #ef6603;
+}
+
+.img-fluid{
+  width: 600px;
+  border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
+  -webkit-border-radius: 30px 30px 30px 30px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {
@@ -738,22 +822,58 @@ section {
   margin-bottom: 0;
 }
 
+
+/*--------------------------------------------------------------
+# Partners
+--------------------------------------------------------------*/
+.partners {
+  background: #e4e4e4;
+  padding: 80px 0;
+}
+
+.partners h3 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 30px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
+.partners p {
+  color: #191919;
+}
+
+.partners-elements{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners-elements img{
+  width: 15%;
+}
+
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #2a2c39;
+  background: #3ce6e6;
   padding: 80px 0;
 }
 
 .cta h3 {
-  color: #fff;
+  color: #191919;
   font-size: 28px;
   font-weight: 700;
 }
 
 .cta p {
-  color: #fff;
+  color: #191919;
 }
 
 .cta .cta-btn {
@@ -1596,7 +1716,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #03DAC5;
+  background: #e4e4e4;
   color: #191919;
   font-size: 14px;
   text-align: center;
